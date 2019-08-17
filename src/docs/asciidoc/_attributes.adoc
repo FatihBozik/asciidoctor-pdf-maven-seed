@@ -7,7 +7,6 @@
 :toclevels: 3
 :sectnums:
 :chapter-label:
-:revnumber: 0.1
 :revremark: {docdate}
 
 :title-logo-image: image::logo.png[align=center, pdfwidth=2.5in]

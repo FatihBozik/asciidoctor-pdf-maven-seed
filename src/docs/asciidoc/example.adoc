@@ -4,3 +4,4 @@ include::_attributes.adoc[]
 
 include::_chapters/ch1-version-history.adoc[Chapter 1]
 include::_chapters/ch2-introduction.adoc[Chapter 2]
+include::_chapters/ch3-plantuml-diagram.adoc[Chapter 3]

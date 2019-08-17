@@ -13,8 +13,11 @@
     </description>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
         <asciidoctor.maven.plugin.version>2.0.0-RC.1</asciidoctor.maven.plugin.version>
-        <asciidoctorj.pdf.version>1.5.0-alpha.18</asciidoctorj.pdf.version>
+        <asciidoctorj.pdf.version>1.5.0-beta.2</asciidoctorj.pdf.version>
+        <asciidoctorj.diagram.version>1.5.18</asciidoctorj.diagram.version>
 
         <output.directory>${project.build.directory}/generated-pdf</output.directory>
         <output.file>${project.name} v${project.version}.pdf</output.file>
@@ -38,12 +41,20 @@
                         <artifactId>asciidoctorj-pdf</artifactId>
                         <version>${asciidoctorj.pdf.version}</version>
                     </dependency>
+                    <dependency>
+                        <groupId>org.asciidoctor</groupId>
+                        <artifactId>asciidoctorj-diagram</artifactId>
+                        <version>${asciidoctorj.diagram.version}</version>
+                    </dependency>
                 </dependencies>
                 <configuration>
                     <sourceDirectory>src/docs/asciidoc</sourceDirectory>
                     <attributes>
                         <sourcedir>${project.build.sourceDirectory}</sourcedir>
                     </attributes>
+                    <requires>
+                        <require>asciidoctor-diagram</require>
+                    </requires>
                 </configuration>
                 <executions>
                     <execution>
