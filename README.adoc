@@ -11,4 +11,4 @@ Convert the AsciiDoc to PDF using Asciidoctor PDF by invoking the `process-resou
 $ ./mvnw
 ----
 
-Generated pdf file located under `target/generated-docs/` path.
+Generated pdf file located under `target/generated-pdf/` path.
