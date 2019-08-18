@@ -1,5 +1,7 @@
 = Asciidoctor PDF Maven Seed Project
 
+image:https://img.shields.io/github/license/fatihbozik/asciidoctor-pdf-maven-seed?style=flat-square[Licence, link=https://github.com/FatihBozik/asciidoctor-pdf-maven-seed/blob/master/LICENCE.adoc]
+
 This is seed project that demonstrates how to convert AsciiDoc to PDF using Asciidoctor PDF with the Asciidoctor Maven plugin.
 
 == Usage
